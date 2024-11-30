@@ -1,0 +1,454 @@
+# Compile of pc.v was successful.
+# Compile of mux.v was successful.
+# Compile of instructionM.v was successful.
+# Compile of control.v was successful.
+# Compile of registers.v was successful.
+# Compile of alucontrol.v was successful.
+# Compile of alu.v was successful.
+# Compile of datam.v was successful.
+# Compile of cand.v was successful.
+# Compile of fase1.v was successful.
+# Compile of mux5b.v was successful.
+# Compile of madd.v was successful.
+# 12 compiles, 0 failed with no errors.
+# Compile of pf1.v was successful.
+vsim work.pf1
+# vsim work.pf1 
+# Start time: 08:54:31 on Nov 30,2024
+# Loading work.pf1
+# Loading work.pc
+# Loading work.madd
+# Loading work.mux
+# Loading work.intructionM
+# Loading work.control
+# Loading work.mux5b
+# Loading work.registers
+# Loading work.alucontrol
+# Loading work.alu
+# Loading work.cand
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'A'. The port definition is at: C:/Users/alan_/Desktop/Fase1/mux.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /pf1/mux4 File: C:/Users/alan_/Desktop/Fase1/pf1.v Line: 211
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'B'. The port definition is at: C:/Users/alan_/Desktop/Fase1/mux.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /pf1/mux4 File: C:/Users/alan_/Desktop/Fase1/pf1.v Line: 211
+vsim work.pf1_tb
+# End time: 08:54:54 on Nov 30,2024, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 6
+# vsim work.pf1_tb 
+# Start time: 08:54:54 on Nov 30,2024
+# Loading work.pf1_tb
+# Loading work.pf1
+# Loading work.pc
+# Loading work.madd
+# Loading work.mux
+# Loading work.intructionM
+# Loading work.control
+# Loading work.mux5b
+# Loading work.registers
+# Loading work.alucontrol
+# Loading work.alu
+# Loading work.cand
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'A'. The port definition is at: C:/Users/alan_/Desktop/Fase1/mux.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /pf1_tb/uut/mux4 File: C:/Users/alan_/Desktop/Fase1/pf1.v Line: 211
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'B'. The port definition is at: C:/Users/alan_/Desktop/Fase1/mux.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /pf1_tb/uut/mux4 File: C:/Users/alan_/Desktop/Fase1/pf1.v Line: 211
+run
+vsim work.pf1_tb
+# End time: 08:55:07 on Nov 30,2024, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 3
+# vsim work.pf1_tb 
+# Start time: 08:55:08 on Nov 30,2024
+# Loading work.pf1_tb
+# Loading work.pf1
+# Loading work.pc
+# Loading work.madd
+# Loading work.mux
+# Loading work.intructionM
+# Loading work.control
+# Loading work.mux5b
+# Loading work.registers
+# Loading work.alucontrol
+# Loading work.alu
+# Loading work.cand
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'A'. The port definition is at: C:/Users/alan_/Desktop/Fase1/mux.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /pf1_tb/uut/mux4 File: C:/Users/alan_/Desktop/Fase1/pf1.v Line: 211
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'B'. The port definition is at: C:/Users/alan_/Desktop/Fase1/mux.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /pf1_tb/uut/mux4 File: C:/Users/alan_/Desktop/Fase1/pf1.v Line: 211
+add wave -position insertpoint sim:/pf1_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: alan_  Hostname: RAMOSLENOVO  ProcessID: 32712
+#           Attempting to use alternate WLF file "./wlft0h0665".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft0h0665
+add wave -position insertpoint sim:/pf1_tb/uut/*
+run
+vsim work.pf1_tb
+# End time: 08:59:51 on Nov 30,2024, Elapsed time: 0:04:43
+# Errors: 0, Warnings: 5
+# vsim work.pf1_tb 
+# Start time: 08:59:51 on Nov 30,2024
+# Loading work.pf1_tb
+# Loading work.pf1
+# Loading work.pc
+# Loading work.madd
+# Loading work.mux
+# Loading work.intructionM
+# Loading work.control
+# Loading work.mux5b
+# Loading work.registers
+# Loading work.alucontrol
+# Loading work.alu
+# Loading work.cand
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'A'. The port definition is at: C:/Users/alan_/Desktop/Fase1/mux.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /pf1_tb/uut/mux4 File: C:/Users/alan_/Desktop/Fase1/pf1.v Line: 211
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'B'. The port definition is at: C:/Users/alan_/Desktop/Fase1/mux.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /pf1_tb/uut/mux4 File: C:/Users/alan_/Desktop/Fase1/pf1.v Line: 211
+add wave -position insertpoint sim:/pf1_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: alan_  Hostname: RAMOSLENOVO  ProcessID: 32712
+#           Attempting to use alternate WLF file "./wlft5e24v8".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft5e24v8
+add wave -position insertpoint sim:/pf1_tb/uut/*
+run
+# Compile of pc.v was successful.
+# Compile of mux.v was successful.
+# Compile of instructionM.v was successful.
+# Compile of control.v was successful.
+# Compile of registers.v was successful.
+# Compile of alucontrol.v was successful.
+# Compile of alu.v was successful.
+# Compile of datam.v was successful.
+# Compile of cand.v was successful.
+# Compile of fase1.v was successful.
+# Compile of mux5b.v was successful.
+# Compile of madd.v was successful.
+# Compile of pf1.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim work.pf1_tb
+# End time: 09:04:44 on Nov 30,2024, Elapsed time: 0:04:53
+# Errors: 0, Warnings: 6
+# vsim work.pf1_tb 
+# Start time: 09:04:44 on Nov 30,2024
+# Loading work.pf1_tb
+# Loading work.pf1
+# Loading work.pc
+# Loading work.madd
+# Loading work.mux
+# Loading work.intructionM
+# Loading work.control
+# Loading work.mux5b
+# Loading work.registers
+# Loading work.alucontrol
+# Loading work.alu
+# Loading work.cand
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'A'. The port definition is at: C:/Users/alan_/Desktop/Fase1/mux.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /pf1_tb/uut/mux4 File: C:/Users/alan_/Desktop/Fase1/pf1.v Line: 211
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'B'. The port definition is at: C:/Users/alan_/Desktop/Fase1/mux.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /pf1_tb/uut/mux4 File: C:/Users/alan_/Desktop/Fase1/pf1.v Line: 211
+add wave -position insertpoint sim:/pf1_tb/*
+add wave -position insertpoint sim:/pf1_tb/uut/*
+run
+# Compile of pc.v was successful.
+# Compile of mux.v was successful.
+# Compile of instructionM.v was successful.
+# Compile of control.v was successful.
+# Compile of registers.v was successful.
+# Compile of alucontrol.v was successful.
+# Compile of alu.v was successful.
+# Compile of datam.v was successful.
+# Compile of cand.v was successful.
+# Compile of fase1.v was successful.
+# Compile of mux5b.v was successful.
+# Compile of madd.v was successful.
+# Compile of pf1.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim work.pf1_tb
+# End time: 09:07:56 on Nov 30,2024, Elapsed time: 0:03:12
+# Errors: 0, Warnings: 4
+# vsim work.pf1_tb 
+# Start time: 09:07:56 on Nov 30,2024
+# Loading work.pf1_tb
+# Loading work.pf1
+# Loading work.pc
+# Loading work.madd
+# Loading work.mux
+# Loading work.intructionM
+# Loading work.control
+# Loading work.mux5b
+# Loading work.registers
+# Loading work.alucontrol
+# Loading work.alu
+# Loading work.cand
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'A'. The port definition is at: C:/Users/alan_/Desktop/Fase1/mux.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /pf1_tb/uut/mux4 File: C:/Users/alan_/Desktop/Fase1/pf1.v Line: 211
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'B'. The port definition is at: C:/Users/alan_/Desktop/Fase1/mux.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /pf1_tb/uut/mux4 File: C:/Users/alan_/Desktop/Fase1/pf1.v Line: 211
+add wave -position insertpoint sim:/pf1_tb/*
+add wave -position insertpoint sim:/pf1_tb/uut/*
+run
+# Compile of pc.v was successful.
+# Compile of mux.v was successful.
+# Compile of instructionM.v was successful.
+# Compile of control.v was successful.
+# Compile of registers.v was successful.
+# Compile of alucontrol.v was successful.
+# Compile of alu.v was successful.
+# Compile of datam.v was successful.
+# Compile of cand.v was successful.
+# Compile of fase1.v was successful.
+# Compile of mux5b.v was successful.
+# Compile of madd.v was successful.
+# Compile of pf1.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim work.pf1_tb
+# End time: 09:11:50 on Nov 30,2024, Elapsed time: 0:03:54
+# Errors: 0, Warnings: 3
+# vsim work.pf1_tb 
+# Start time: 09:11:50 on Nov 30,2024
+# Loading work.pf1_tb
+# Loading work.pf1
+# Loading work.pc
+# Loading work.madd
+# Loading work.mux
+# Loading work.intructionM
+# Loading work.control
+# Loading work.mux5b
+# Loading work.registers
+# Loading work.alucontrol
+# Loading work.alu
+# Loading work.cand
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'A'. The port definition is at: C:/Users/alan_/Desktop/Fase1/mux.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /pf1_tb/uut/mux4 File: C:/Users/alan_/Desktop/Fase1/pf1.v Line: 211
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'B'. The port definition is at: C:/Users/alan_/Desktop/Fase1/mux.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /pf1_tb/uut/mux4 File: C:/Users/alan_/Desktop/Fase1/pf1.v Line: 211
+add wave -position insertpoint sim:/pf1_tb/*
+add wave -position insertpoint sim:/pf1_tb/uut/*
+run
+# Compile of control.v was successful.
+vsim work.control
+# End time: 09:27:27 on Nov 30,2024, Elapsed time: 0:15:37
+# Errors: 0, Warnings: 5
+# vsim work.control 
+# Start time: 09:27:27 on Nov 30,2024
+# Loading work.control
+vsim work.control
+# End time: 09:27:57 on Nov 30,2024, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 1
+# vsim work.control 
+# Start time: 09:27:57 on Nov 30,2024
+# Loading work.control
+add wave -position insertpoint sim:/control/*
+run
+run
+force -freeze sim:/control/OpCode 001000 0
+run
+# Compile of control.v was successful.
+vsim work.control
+# End time: 09:33:21 on Nov 30,2024, Elapsed time: 0:05:24
+# Errors: 0, Warnings: 2
+# vsim work.control 
+# Start time: 09:33:22 on Nov 30,2024
+# Loading work.control
+add wave -position insertpoint sim:/control/*
+force -freeze sim:/control/OpCode 100111 0
+run
+# Compile of pc.v was successful.
+# Compile of mux.v was successful.
+# Compile of instructionM.v was successful.
+# Compile of control.v failed with 2 errors.
+# Compile of registers.v was successful.
+# Compile of alucontrol.v was successful.
+# Compile of alu.v was successful.
+# Compile of datam.v was successful.
+# Compile of cand.v was successful.
+# Compile of fase1.v was successful.
+# Compile of mux5b.v was successful.
+# Compile of madd.v was successful.
+# Compile of pf1.v was successful.
+# 13 compiles, 1 failed with 2 errors.
+# Compile of control.v failed with 2 errors.
+# Compile of control.v failed with 1 errors.
+# Compile of control.v was successful.
+vsim work.control
+# End time: 09:38:45 on Nov 30,2024, Elapsed time: 0:05:23
+# Errors: 0, Warnings: 5
+# vsim work.control 
+# Start time: 09:38:45 on Nov 30,2024
+# Loading work.control
+add wave -position insertpoint sim:/control/*
+force -freeze sim:/control/OpCode 101011 0
+run
+# Compile of control.v was successful.
+vsim work.control
+# End time: 09:42:25 on Nov 30,2024, Elapsed time: 0:03:40
+# Errors: 0, Warnings: 2
+# vsim work.control 
+# Start time: 09:42:25 on Nov 30,2024
+# Loading work.control
+add wave -position insertpoint sim:/control/*
+force -freeze sim:/control/OpCode 001000 0
+run
+force -freeze sim:/control/OpCode 000100 0
+run
+# Compile of signoE.v was successful.
+vsim work.signE
+# End time: 09:48:25 on Nov 30,2024, Elapsed time: 0:06:00
+# Errors: 0, Warnings: 3
+# vsim work.signE 
+# Start time: 09:48:25 on Nov 30,2024
+# Loading work.signE
+add wave -position insertpoint sim:/signE/*
+force -freeze sim:/signE/in 1 0
+run
+force -freeze sim:/signE/in 1111111111111111 0
+run
+# Compile of sl.v was successful.
+vsim work.sl
+# End time: 09:55:26 on Nov 30,2024, Elapsed time: 0:07:01
+# Errors: 0, Warnings: 3
+# vsim work.sl 
+# Start time: 09:55:26 on Nov 30,2024
+# Loading work.sl
+add wave -position insertpoint sim:/sl/*
+force -freeze sim:/sl/in 1 0
+run
+# Compile of newadd.v was successful.
+# Compile of newadd.v was successful.
+vsim work.newadd
+# End time: 10:00:09 on Nov 30,2024, Elapsed time: 0:04:43
+# Errors: 0, Warnings: 4
+# vsim work.newadd 
+# Start time: 10:00:09 on Nov 30,2024
+# Loading work.newadd
+add wave -position insertpoint sim:/newadd/*
+force -freeze sim:/newadd/madd_in 1 0
+force -freeze sim:/newadd/madd_in2 1 0
+run
+# Compile of fase2.v failed with 1 errors.
+# Compile of fase2.v failed with 1 errors.
+# Compile of fase2.v was successful.
+vsim work.fase2
+# End time: 10:16:36 on Nov 30,2024, Elapsed time: 0:16:27
+# Errors: 0, Warnings: 5
+# vsim work.fase2 
+# Start time: 10:16:36 on Nov 30,2024
+# Loading work.fase2
+# Loading work.madd
+# ** Error: (vsim-3033) Instantiation of 'singE' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /fase2 File: C:/Users/alan_/Desktop/Fase1/fase2.v Line: 22
+#         Searched libraries:
+#             C:/Users/alan_/Desktop/Fase1/work
+# Loading work.sl
+# Loading work.newadd
+# Error loading design
+# End time: 10:16:37 on Nov 30,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+vsim work.fase2
+# vsim work.fase2 
+# Start time: 10:16:39 on Nov 30,2024
+# Loading work.fase2
+# Loading work.madd
+# ** Error: (vsim-3033) Instantiation of 'singE' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /fase2 File: C:/Users/alan_/Desktop/Fase1/fase2.v Line: 22
+#         Searched libraries:
+#             C:/Users/alan_/Desktop/Fase1/work
+# Loading work.sl
+# Loading work.newadd
+# Error loading design
+# End time: 10:16:40 on Nov 30,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+vsim work.fase2
+# vsim work.fase2 
+# Start time: 10:16:43 on Nov 30,2024
+# Loading work.fase2
+# Loading work.madd
+# ** Error: (vsim-3033) Instantiation of 'singE' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /fase2 File: C:/Users/alan_/Desktop/Fase1/fase2.v Line: 22
+#         Searched libraries:
+#             C:/Users/alan_/Desktop/Fase1/work
+# Loading work.sl
+# Loading work.newadd
+# Error loading design
+# End time: 10:16:45 on Nov 30,2024, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 1
+# Compile of fase2.v was successful.
+vsim work.fase2
+# vsim work.fase2 
+# Start time: 10:17:13 on Nov 30,2024
+# Loading work.fase2
+# Loading work.madd
+# ** Error: (vsim-3033) Instantiation of 'singE' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /fase2 File: C:/Users/alan_/Desktop/Fase1/fase2.v Line: 22
+#         Searched libraries:
+#             C:/Users/alan_/Desktop/Fase1/work
+# Loading work.sl
+# Error loading design
+# End time: 10:17:14 on Nov 30,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of fase2.v was successful.
+vsim work.fase2
+# vsim work.fase2 
+# Start time: 10:17:46 on Nov 30,2024
+# Loading work.fase2
+# Loading work.madd
+# Loading work.signE
+# Loading work.sl
+# ** Error: (vsim-3063) Port 'madd_out' not found in the connected module (3rd connection).
+#    Time: 0 ns  Iteration: 0  Instance: /fase2/instancemad File: C:/Users/alan_/Desktop/Fase1/fase2.v Line: 15
+# ** Error: (vsim-3063) Port 'madd_in1' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /fase2/nainstance File: C:/Users/alan_/Desktop/Fase1/fase2.v Line: 34
+# ** Error: (vsim-3063) Port 'madd_in2' not found in the connected module (2nd connection).
+#    Time: 0 ns  Iteration: 0  Instance: /fase2/nainstance File: C:/Users/alan_/Desktop/Fase1/fase2.v Line: 34
+# Error loading design
+# End time: 10:17:47 on Nov 30,2024, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 2
+# Compile of fase2.v was successful.
+vsim work.fase2
+# vsim work.fase2 
+# Start time: 10:18:43 on Nov 30,2024
+# Loading work.fase2
+# Loading work.madd
+# Loading work.signE
+# Loading work.sl
+# ** Error: (vsim-3063) Port 'madd_out' not found in the connected module (3rd connection).
+#    Time: 0 ns  Iteration: 0  Instance: /fase2/instancemad File: C:/Users/alan_/Desktop/Fase1/fase2.v Line: 15
+# Error loading design
+# End time: 10:18:44 on Nov 30,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+vsim work.fase2
+# vsim work.fase2 
+# Start time: 10:19:35 on Nov 30,2024
+# Loading work.fase2
+# Loading work.madd
+# Loading work.signE
+# Loading work.sl
+# ** Error: (vsim-3063) Port 'madd_out' not found in the connected module (3rd connection).
+#    Time: 0 ns  Iteration: 0  Instance: /fase2/instancemad File: C:/Users/alan_/Desktop/Fase1/fase2.v Line: 15
+# Error loading design
+# End time: 10:19:37 on Nov 30,2024, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 1
+vsim work.fase2
+# vsim work.fase2 
+# Start time: 10:19:47 on Nov 30,2024
+# Loading work.fase2
+# Loading work.madd
+# Loading work.signE
+# Loading work.sl
+# ** Error: (vsim-3063) Port 'madd_out' not found in the connected module (3rd connection).
+#    Time: 0 ns  Iteration: 0  Instance: /fase2/instancemad File: C:/Users/alan_/Desktop/Fase1/fase2.v Line: 15
+# Error loading design
+# End time: 10:19:48 on Nov 30,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Compile of fase2.v was successful.
+vsim work.fase2
+# vsim work.fase2 
+# Start time: 10:20:36 on Nov 30,2024
+# Loading work.fase2
+# Loading work.madd
+# Loading work.signE
+# Loading work.sl
+add wave -position insertpoint sim:/fase2/*
+force -freeze sim:/fase2/in1 1 0
+force -freeze sim:/fase2/in2 1 0
+force -freeze sim:/fase2/in13 1 0
+run

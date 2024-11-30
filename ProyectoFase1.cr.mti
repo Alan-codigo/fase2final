@@ -1,0 +1,113 @@
+C:/Users/alan_/Desktop/Fase1/sl.v {1 {vlog -work work -stats=none C:/Users/alan_/Desktop/Fase1/sl.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sl
+
+Top level modules:
+	sl
+
+} {} {}} C:/Users/alan_/Desktop/Fase1/fase1.v {1 {vlog -work work -stats=none C:/Users/alan_/Desktop/Fase1/fase1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fase1
+
+Top level modules:
+	fase1
+
+} {} {}} C:/Users/alan_/Desktop/Fase1/control.v {1 {vlog -work work -stats=none C:/Users/alan_/Desktop/Fase1/control.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module control
+
+Top level modules:
+	control
+
+} {} {}} C:/Users/alan_/Desktop/Fase1/mux5b.v {1 {vlog -work work -stats=none C:/Users/alan_/Desktop/Fase1/mux5b.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux5b
+
+Top level modules:
+	mux5b
+
+} {} {}} C:/Users/alan_/Desktop/Fase1/mux.v {1 {vlog -work work -stats=none C:/Users/alan_/Desktop/Fase1/mux.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux
+
+Top level modules:
+	mux
+
+} {} {}} C:/Users/alan_/Desktop/Fase1/alu.v {1 {vlog -work work -stats=none C:/Users/alan_/Desktop/Fase1/alu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/Users/alan_/Desktop/Fase1/newadd.v {1 {vlog -work work -stats=none C:/Users/alan_/Desktop/Fase1/newadd.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module newadd
+
+Top level modules:
+	newadd
+
+} {} {}} C:/Users/alan_/Desktop/Fase1/signoE.v {1 {vlog -work work -stats=none C:/Users/alan_/Desktop/Fase1/signoE.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module signE
+
+Top level modules:
+	signE
+
+} {} {}} C:/Users/alan_/Desktop/Fase1/madd.v {1 {vlog -work work -stats=none C:/Users/alan_/Desktop/Fase1/madd.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module madd
+
+Top level modules:
+	madd
+
+} {} {}} C:/Users/alan_/Desktop/Fase1/cand.v {1 {vlog -work work -stats=none C:/Users/alan_/Desktop/Fase1/cand.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module cand
+
+Top level modules:
+	cand
+
+} {} {}} C:/Users/alan_/Desktop/Fase1/pf1.v {1 {vlog -work work -stats=none C:/Users/alan_/Desktop/Fase1/pf1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pf1
+
+Top level modules:
+	pf1
+
+} {} {}} C:/Users/alan_/Desktop/Fase1/datam.v {1 {vlog -work work -stats=none C:/Users/alan_/Desktop/Fase1/datam.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataMemory
+
+Top level modules:
+	DataMemory
+
+} {} {}} C:/Users/alan_/Desktop/Fase1/instructionM.v {1 {vlog -work work -stats=none C:/Users/alan_/Desktop/Fase1/instructionM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module intructionM
+
+Top level modules:
+	intructionM
+
+} {} {}} C:/Users/alan_/Desktop/Fase1/registers.v {1 {vlog -work work -stats=none C:/Users/alan_/Desktop/Fase1/registers.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module registers
+
+Top level modules:
+	registers
+
+} {} {}} C:/Users/alan_/Desktop/Fase1/pc.v {1 {vlog -work work -stats=none C:/Users/alan_/Desktop/Fase1/pc.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} C:/Users/alan_/Desktop/Fase1/alucontrol.v {1 {vlog -work work -stats=none C:/Users/alan_/Desktop/Fase1/alucontrol.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alucontrol
+
+Top level modules:
+	alucontrol
+
+} {} {}}
